@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100v;
+    padding: 40px;
+    margin: 30px;
+}
+.container{
+    width: 100%;
+    align-items: flex-start;
+    max-width: 500px;
+    background: white;
+    padding: 20px 40px;
+    margin: auto;
+    margin-right: 0;
+    height: 400px;
+    
+}
+.container .title{
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.container .user-details{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+.container p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20 0 15 0;
+}
+form .user-details{
+    margin: 2px;
+    width: 100%;
+}
+.user-details .input-box input{
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 10px solid white;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    background: rgb(185, 170, 170);
+    text-align: left;
+    padding-left: 10px;
+}
+.user-details .input-box ::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.container a{
+    color: rgb(58, 54, 54);
+}
+form .button{
+    height: 50px;
+    margin: 50px;
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: white;
+    border: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: chocolate;
+    border-radius: 20px;
+}
+
+
+.nav{
+    width: 100%;
+    align-items: flex-end;
+    max-width: 500px;
+    background: tomato;
+    padding: 20px 40px;
+    margin: 20px;
+    margin: auto;
+    margin-left: 0;
+    height: 400px
+
+}
+.nav .title{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.nav p{
+    text-align: center;
+    margin: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-link .button{
+    height: 50px;
+    margin: 50px;
+}
+.nav-link .button input{
+    height: 100%;
+    width: 100%;
+    outline: 2px solid white;
+    color: white;
+    border: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: tomato;
+    border-radius: 20px;
+}
